@@ -1,0 +1,13 @@
+streamlit>=1.32.0
+llama-index-core>=0.10.25.post2
+llama-index>=0.10.0
+llama-index-embeddings-openai>=0.1.3
+llama-index-indices-managed-llama-cloud>=0.1.3
+llama-index-readers-file
+llama-index-callbacks-arize-phoenix>=0.1.3
+jupyter
+nest-asyncio>=1.5.8
+sqlalchemy>=2.0.0
+openai>=1.12.0
+python-dotenv>=1.0.0
+termcolor>=2.3.0
