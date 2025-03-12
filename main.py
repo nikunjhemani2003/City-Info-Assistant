@@ -288,7 +288,7 @@ class RouterOutputAgentWorkflow(Workflow):
             return None
         
         for tool_event in tool_events:
-            # append tool call chat messages to history
+
             self.chat_history.append(tool_event.msg)
         
         # # after all tool calls finish, pass input event back, restart agent loop
